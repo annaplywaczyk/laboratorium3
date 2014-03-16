@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="indexpage" kind="page">
+    <compoundname>index</compoundname>
+    <title>Program wyliczajacy czas wykonywanego alorytmu</title>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Anna Plywaczyk, 200340 </para></simplesect>
+<simplesect kind="date"><para>02.03.2014 </para></simplesect>
+<simplesect kind="version"><para>0,1</para></simplesect>
+Aplikacja porozumiewa sie z uzytkowniem. Prosi o podanie nazwy pliku, na ktorym ma byc wykonany algorytm. W programie zostanie wlaczony stoper, ktorym zmierzymy czas w jakim algorytm zostanie wykonany. Pomiar czasu zostanie wykonany kilkakrotnie i na ekran zostanie wypisana wartosc srednia. Aplikacja ponownie poprosi o podanie nazwy pliku, ktory ma zostac porownany z plikiem pomnozonym przez 2. Jezeli wektory beda jednakowe program zworoci komunikat o tym iz mnozenie zostalo wykonane poprawnie w przeciwnym wypadku zostanie zwrocony komunikat o blednym wykonaniu algorytmu. </para>    </detaileddescription>
+  </compounddef>
+</doxygen>

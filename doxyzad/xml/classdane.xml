@@ -1,0 +1,331 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="classdane" kind="class" prot="public">
+    <compoundname>dane</compoundname>
+    <includes refid="dane_8hh" local="no">dane.hh</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classdane_1a7f047a5aae9ed36ad4fd2a26e4907396" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dane::liczba_el</definition>
+        <argsstring></argsstring>
+        <name>liczba_el</name>
+        <briefdescription>
+<para>Inicjalizuje liczbe elementow. Liczba elementow zostaje okreslona poprzez wczytanie z pliku pierwszej zmiennej i okresla ile zmiennych bedzie w wektorze,ktore wczytane zostana z pliku wystepujacych w pliku. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ania/workspace/zadanie/inc/dane.hh" line="38" bodyfile="C:/Users/Ania/workspace/zadanie/inc/dane.hh" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdane_1a7603de7229570aab866efba9241e2972" prot="private" static="no" mutable="no">
+        <type>vector&lt; int &gt;</type>
+        <definition>vector&lt;int&gt; dane::wektor</definition>
+        <argsstring></argsstring>
+        <name>wektor</name>
+        <briefdescription>
+<para>Inicjalizuje wektor. Tworzy wektor, ktory zostanie wypelniony elemenatami znajdujacymi sie w pliku. W wektorze znajdowac sie beda zmienne, ktore beda liczbami calkowitymi. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ania/workspace/zadanie/inc/dane.hh" line="44" bodyfile="C:/Users/Ania/workspace/zadanie/inc/dane.hh" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdane_1a9d11db4780438d62db6e12060c2c84f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void dane::wczytaj</definition>
+        <argsstring>(string nazwa)</argsstring>
+        <name>wczytaj</name>
+        <param>
+          <type>string</type>
+          <declname>nazwa</declname>
+        </param>
+        <briefdescription>
+<para>Funkcja wczytuj¹ca dane do wektora z pliku. Funkcja otwiera plik zdefiniowany w glownej funkcji przez u¿ytkownika, sprawdza czy plik zosta³ otwarty, je¿eli zosta³ otwarty wczytana jest liczba elementow pliku, nastepnie wczytywane sa wszystkie liczby do wektora. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">nazwa</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- zmienna, która zostaje wprowadzona przez u¿ytkownika do programu </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>(brak) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ania/workspace/zadanie/inc/dane.hh" line="54" bodyfile="C:/Users/Ania/workspace/zadanie/src/dane.cpp" bodystart="12" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classdane_1a8c2265d257e8915ab0927da72d1eda59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void dane::wypisz</definition>
+        <argsstring>()</argsstring>
+        <name>wypisz</name>
+        <briefdescription>
+<para>Funkcja wypisuj¹ca na ekran wszystkie elementy wektora. Funkcja wypisuje na ekran wsyztskie elemnty z pliku na ekran w postaci wektora w kolumnie. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>(brak) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ania/workspace/zadanie/inc/dane.hh" line="60" bodyfile="C:/Users/Ania/workspace/zadanie/src/dane.cpp" bodystart="29" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classdane_1a3e9a764d9affa78d3f6b01d77996d3ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void dane::zamien_element</definition>
+        <argsstring>(int i, int j)</argsstring>
+        <name>zamien_element</name>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>j</declname>
+        </param>
+        <briefdescription>
+<para>Zamiana elementow Funkcja zamiania dwa elementy wektora, zadane poprzez wywolanie argumentow funkcji. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">i</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- pierwszy numer elementu, ktory ma zostac zamieniony. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">j-</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>drugi numer elementu, ktory ma zostac zamieniony. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>(brak) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ania/workspace/zadanie/inc/dane.hh" line="68" bodyfile="C:/Users/Ania/workspace/zadanie/src/dane.cpp" bodystart="37" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classdane_1a1bd757a9b99595578ca23f52ea036f20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void dane::dodaj_element</definition>
+        <argsstring>(int e)</argsstring>
+        <name>dodaj_element</name>
+        <param>
+          <type>int</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Dodawanie elementu. Funkcja dodaje element na koniec wektora. Funkcja zdefiniowana jest poprzez wywolanie argumentow funkcji. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- liczba, ktora ma zostac dodana na koniec wektora. return (brak) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ania/workspace/zadanie/inc/dane.hh" line="76" bodyfile="C:/Users/Ania/workspace/zadanie/src/dane.cpp" bodystart="49" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classdane_1a707fcfe2661ea4c59e4c9be456fc96d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void dane::odwroc_element</definition>
+        <argsstring>()</argsstring>
+        <name>odwroc_element</name>
+        <briefdescription>
+<para>Odwracanie elementow Funkcja ogawraca wektor, ostatni element wektora staje siê pierwszy, a pierwszy ostatnim. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>(brak) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ania/workspace/zadanie/inc/dane.hh" line="82" bodyfile="C:/Users/Ania/workspace/zadanie/src/dane.cpp" bodystart="55" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classdane_1a257a2d91e163464fe7fb8c1a7adb1728" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void dane::dodaj_elementy</definition>
+        <argsstring>(dane wektor2)</argsstring>
+        <name>dodaj_elementy</name>
+        <param>
+          <type><ref refid="classdane" kindref="compound">dane</ref></type>
+          <declname>wektor2</declname>
+        </param>
+        <briefdescription>
+<para>Dodawanie elementu. Funkcja dodaje element na koniec wektora. Funkcja zdefiniowana jest poprzez wywolanie argumentow funkcji. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">wektor2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- wektor, ktory ma zostac dodany na koniec wektora, z dwoch zostaje stworzony jeden. return (brak) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ania/workspace/zadanie/inc/dane.hh" line="90" bodyfile="C:/Users/Ania/workspace/zadanie/src/dane.cpp" bodystart="66" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classdane_1af5f6aad7a57c9709cfdd50bc57c9ecb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int &amp;</type>
+        <definition>int &amp; dane::operator[]</definition>
+        <argsstring>(int indeks)</argsstring>
+        <name>operator[]</name>
+        <param>
+          <type>int</type>
+          <declname>indeks</declname>
+        </param>
+        <briefdescription>
+<para>Uzycie operatora [] Przeciazenie operatora stwoarzone abysmy mogli odwolac sie do konkretnego elementu wektora. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">indeks</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- zmienna calkowita, poperzez ktora mozemy dostac do konkretnego elementu wektora. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Zwraca wartosc jaka znajduje siê w zadanym elemencie wektora. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ania/workspace/zadanie/inc/dane.hh" line="97" bodyfile="C:/Users/Ania/workspace/zadanie/src/dane.cpp" bodystart="74" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classdane_1aad79f522f96d20e05e7e84db96dfe162" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int dane::size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <briefdescription>
+<para>Rozmiar wektora. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Funkcja zwaraca liczbe elementow wektora. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ania/workspace/zadanie/inc/dane.hh" line="102" bodyfile="C:/Users/Ania/workspace/zadanie/inc/dane.hh" bodystart="102" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classdane_1a0316457927e41afa079b84ed878c7462" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classdane" kindref="compound">dane</ref> &amp;</type>
+        <definition>dane &amp; dane::operator+</definition>
+        <argsstring>(dane wektor2)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type><ref refid="classdane" kindref="compound">dane</ref></type>
+          <declname>wektor2</declname>
+        </param>
+        <briefdescription>
+<para>Uzycie operatora + na wektorze Przeciazenie operatora dodwania, ktory mozemy wykonywac na wektorach. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">wektor2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- wektor danych ktory ma zostac dodany do wektora glownego </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Zwraca wektor, ktory jest suma dwoch innych </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ania/workspace/zadanie/inc/dane.hh" line="111" bodyfile="C:/Users/Ania/workspace/zadanie/src/dane.cpp" bodystart="79" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classdane_1a2b3162017b009396e52273f80b1e43a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classdane" kindref="compound">dane</ref> &amp;</type>
+        <definition>dane &amp; dane::operator=</definition>
+        <argsstring>(dane wektor2)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classdane" kindref="compound">dane</ref></type>
+          <declname>wektor2</declname>
+        </param>
+        <briefdescription>
+<para>Uzycie operatora = na wektorze Przeciazenie opertora przypisywania. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">wektor2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- wektor danych ktory ma zostac przypisany do wektora glownego </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Zwraca wektor, do ktorego zostal przypisany inny wektor </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ania/workspace/zadanie/inc/dane.hh" line="118" bodyfile="C:/Users/Ania/workspace/zadanie/src/dane.cpp" bodystart="85" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classdane_1adc96a79286edf951110bcb1206214912" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>vector&lt; int &gt; &amp;</type>
+        <definition>vector&lt;int&gt;&amp; dane::wnetrze</definition>
+        <argsstring>()</argsstring>
+        <name>wnetrze</name>
+        <briefdescription>
+<para>Metoda daj¹ca dostep do zawartosci wektora danych. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Wektor danych. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ania/workspace/zadanie/inc/dane.hh" line="123" bodyfile="C:/Users/Ania/workspace/zadanie/inc/dane.hh" bodystart="123" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="classdane_1a0024956f16e82184d7da0650d4a3372a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool dane::operator==</definition>
+        <argsstring>(dane wektor2)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classdane" kindref="compound">dane</ref></type>
+          <declname>wektor2</declname>
+        </param>
+        <briefdescription>
+<para>Operator porownania dwoch wektorow Funkcja, ktora jest operatorem porownania dwoch wektorow. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">wektor2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- wektor danych ktory zostaje porownany z danymi glownymi </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True gdy wektory danych sa jednakowe, natomiast jesli nawet jeden element sie rozni od wektora porownywanego zwraca false. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ania/workspace/zadanie/inc/dane.hh" line="133" bodyfile="C:/Users/Ania/workspace/zadanie/src/dane.cpp" bodystart="93" bodyend="110"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Modeluje pojecie danych, u¿ytych w programie, które w moim przypadku sa wektorem, ktory zostaje wczytany z pliku. Pierwsza zmienna wczytana z pliku jest liczba elemntow wystepujacych w tym pliku. Przyjelam, ze zmienne wczytane z pliku sa liczbami calkowitymi (int). </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Ania/workspace/zadanie/inc/dane.hh" line="31" bodyfile="C:/Users/Ania/workspace/zadanie/inc/dane.hh" bodystart="31" bodyend="134"/>
+    <listofallmembers>
+      <member refid="classdane_1a1bd757a9b99595578ca23f52ea036f20" prot="public" virt="non-virtual"><scope>dane</scope><name>dodaj_element</name></member>
+      <member refid="classdane_1a257a2d91e163464fe7fb8c1a7adb1728" prot="public" virt="non-virtual"><scope>dane</scope><name>dodaj_elementy</name></member>
+      <member refid="classdane_1a7f047a5aae9ed36ad4fd2a26e4907396" prot="private" virt="non-virtual"><scope>dane</scope><name>liczba_el</name></member>
+      <member refid="classdane_1a707fcfe2661ea4c59e4c9be456fc96d7" prot="public" virt="non-virtual"><scope>dane</scope><name>odwroc_element</name></member>
+      <member refid="classdane_1a0316457927e41afa079b84ed878c7462" prot="public" virt="non-virtual"><scope>dane</scope><name>operator+</name></member>
+      <member refid="classdane_1a2b3162017b009396e52273f80b1e43a2" prot="public" virt="non-virtual"><scope>dane</scope><name>operator=</name></member>
+      <member refid="classdane_1a0024956f16e82184d7da0650d4a3372a" prot="public" virt="non-virtual"><scope>dane</scope><name>operator==</name></member>
+      <member refid="classdane_1af5f6aad7a57c9709cfdd50bc57c9ecb3" prot="public" virt="non-virtual"><scope>dane</scope><name>operator[]</name></member>
+      <member refid="classdane_1aad79f522f96d20e05e7e84db96dfe162" prot="public" virt="non-virtual"><scope>dane</scope><name>size</name></member>
+      <member refid="classdane_1a9d11db4780438d62db6e12060c2c84f0" prot="public" virt="non-virtual"><scope>dane</scope><name>wczytaj</name></member>
+      <member refid="classdane_1a7603de7229570aab866efba9241e2972" prot="private" virt="non-virtual"><scope>dane</scope><name>wektor</name></member>
+      <member refid="classdane_1adc96a79286edf951110bcb1206214912" prot="public" virt="non-virtual"><scope>dane</scope><name>wnetrze</name></member>
+      <member refid="classdane_1a8c2265d257e8915ab0927da72d1eda59" prot="public" virt="non-virtual"><scope>dane</scope><name>wypisz</name></member>
+      <member refid="classdane_1a3e9a764d9affa78d3f6b01d77996d3ec" prot="public" virt="non-virtual"><scope>dane</scope><name>zamien_element</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

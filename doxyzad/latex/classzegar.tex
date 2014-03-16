@@ -1,0 +1,196 @@
+\hypertarget{classzegar}{\section{zegar Class Reference}
+\label{classzegar}\index{zegar@{zegar}}
+}
+
+
+Klasa modeluje uruchomienia g³ownych wlasciowosci programu. Atrybutem klasy sa stowrzone dwa elemnty klasy dane, na ktorych wykonywane sa dzialania.  
+
+
+
+
+{\ttfamily \#include $<$uruchom.\-hh$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classzegar_a5a056093f44cf4af3e113c9120c4fe89}{zegar} ()
+\item 
+void \hyperlink{classzegar_a33ed36b856cb3e963cf237112190b088}{wczytaj\-\_\-dane\-\_\-pod} (string nazwa\-\_\-pliku\-\_\-pod)
+\begin{DoxyCompactList}\small\item\em Wczytanie danych podstawowych Funkcja wczytuje dane, na ktorych wykonywany jest algorytm. Dane te sa glowna funkcja programu. \end{DoxyCompactList}\item 
+void \hyperlink{classzegar_abd42eadcb229d63bfd5294168b56bbe7}{wczytaj\-\_\-dane\-\_\-spr} (string nazwa\-\_\-pliku\-\_\-spr)
+\begin{DoxyCompactList}\small\item\em Wczytanie danych sprawdzajacych Funkcja wczytuje dane, na ktore zostaja porwonane z danymi na ktorych zostal wykonany algorytm. \end{DoxyCompactList}\item 
+void \hyperlink{classzegar_a8975a0605f6d9a6c8556459ec429e1a4}{algorytm} ()
+\begin{DoxyCompactList}\small\item\em Funkcja wykonuj¹ca zadany algorytm na wektorze. Funkcja wykonuje zadany algorytm na wektorze wejsciowym. W naszym przypadku wektor pomno¿ony jest przez sta³¹ liczbê 2. \end{DoxyCompactList}\item 
+bool \hyperlink{classzegar_ab62a10bb1731935c342405ce39580b66}{porownaj} ()
+\begin{DoxyCompactList}\small\item\em Funkcja porównuj¹ca dwa wektory. Funkcja porównuje dwa wektory, sprawdza czy wszystkie elemnty s¹ ze sob¹ równe. \end{DoxyCompactList}\item 
+L\-A\-R\-G\-E\-\_\-\-I\-N\-T\-E\-G\-E\-R \hyperlink{classzegar_aeea0981af9bbff5af057ca2462d2f574}{wlacz\-Stoper} ()
+\begin{DoxyCompactList}\small\item\em Funkcja zapamietuj¹ca czas poczatkowy. Funkcja nale¿¹ca do biblioteki \char`\"{}windows.\-h\char`\"{}, stoper zostaje w³¹czony. Funkcja nale¿¹ca do funkcji bool Query\-Performance\-Counter(\-\_\-out L\-A\-R\-G\-E\-\_\-\-I\-N\-T\-E\-G\-E\-R $\ast$\-Ip\-Performance\-Count), funkcja ta zwraca wartosc niezerowa je¿eli w³aczenie zakoñczy siê sukcesem, natomiast w przeciwnym wypadku zostanie wyrzucony b³¹d i zwróci wartosc 0. Dla komputerów multiprocesorowych nie ma znaczenia, który jest u¿ywany, mog¹ jedynie ró¿niæ siê minimalnie czasy. \end{DoxyCompactList}\item 
+L\-A\-R\-G\-E\-\_\-\-I\-N\-T\-E\-G\-E\-R \hyperlink{classzegar_af1d85ecece1c8e7c08f32a761f383b2c}{wylacz\-Stoper} ()
+\begin{DoxyCompactList}\small\item\em Funkcja zapamietuj¹ca czas koñcowy. Funkcja nale¿¹ca do biblioteki \char`\"{}windows.\-h\char`\"{}, stoper zostaje wy³¹czony, aby zosta³ zmierzony czas wykonania algorytmu w programie, poprzez odjêcie czasu pocz¹tkowego od czasu koñcowego. Funkcja nale¿¹ca do funkcji bool Query\-Performance\-Counter(\-\_\-out L\-A\-R\-G\-E\-\_\-\-I\-N\-T\-E\-G\-E\-R $\ast$\-Ip\-Performance\-Count), funkcja ta zwraca wartosc niezerowa je¿eli wy³aczenie zakoñczy siê sukcesem, natomiast w przeciwnym wypadku zostanie wyrzucony b³¹d i zwróci wartosc 0. Dla komputerów multiprocesorowych nie ma znaczenia, który jest u¿ywany, mog¹ jedynie ró¿niæ siê minimalnie czasy. \end{DoxyCompactList}\item 
+void \hyperlink{classzegar_a4b09c651606f678bacda917f08acee2e}{wczytaj} (string nazwa)
+\begin{DoxyCompactList}\small\item\em Funkcja wczytuj¹ca dane do stosu. Funkcja otwiera plik zdefiniowany w glownej funkcji przez u¿ytkownika, sprawdza czy plik zosta³ otwarty, je¿eli zosta³ otwarty wczytana jest liczba elementow pliku, nastepnie wczytywane sa wszystkie liczby do tablicy. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Klasa modeluje uruchomienia g³ownych wlasciowosci programu. Atrybutem klasy sa stowrzone dwa elemnty klasy dane, na ktorych wykonywane sa dzialania. 
+
+Definition at line 28 of file uruchom.\-hh.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classzegar_a5a056093f44cf4af3e113c9120c4fe89}{\index{zegar@{zegar}!zegar@{zegar}}
+\index{zegar@{zegar}!zegar@{zegar}}
+\subsubsection[{zegar}]{\setlength{\rightskip}{0pt plus 5cm}zegar\-::zegar (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classzegar_a5a056093f44cf4af3e113c9120c4fe89}
+
+
+Definition at line 45 of file uruchom.\-hh.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classzegar_a8975a0605f6d9a6c8556459ec429e1a4}{\index{zegar@{zegar}!algorytm@{algorytm}}
+\index{algorytm@{algorytm}!zegar@{zegar}}
+\subsubsection[{algorytm}]{\setlength{\rightskip}{0pt plus 5cm}void zegar\-::algorytm (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classzegar_a8975a0605f6d9a6c8556459ec429e1a4}
+
+
+Funkcja wykonuj¹ca zadany algorytm na wektorze. Funkcja wykonuje zadany algorytm na wektorze wejsciowym. W naszym przypadku wektor pomno¿ony jest przez sta³¹ liczbê 2. 
+
+\begin{DoxyReturn}{Returns}
+(brak) 
+\end{DoxyReturn}
+
+
+Definition at line 14 of file uruchom.\-cpp.
+
+\hypertarget{classzegar_ab62a10bb1731935c342405ce39580b66}{\index{zegar@{zegar}!porownaj@{porownaj}}
+\index{porownaj@{porownaj}!zegar@{zegar}}
+\subsubsection[{porownaj}]{\setlength{\rightskip}{0pt plus 5cm}bool zegar\-::porownaj (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classzegar_ab62a10bb1731935c342405ce39580b66}
+
+
+Funkcja porównuj¹ca dwa wektory. Funkcja porównuje dwa wektory, sprawdza czy wszystkie elemnty s¹ ze sob¹ równe. 
+
+\begin{DoxyReturn}{Returns}
+Funkcja zwraca true jezeli wektory sa jednakowe w przeciwnym wypadku zostaje wzrocony false. 
+\end{DoxyReturn}
+
+
+Definition at line 83 of file uruchom.\-hh.
+
+\hypertarget{classzegar_a4b09c651606f678bacda917f08acee2e}{\index{zegar@{zegar}!wczytaj@{wczytaj}}
+\index{wczytaj@{wczytaj}!zegar@{zegar}}
+\subsubsection[{wczytaj}]{\setlength{\rightskip}{0pt plus 5cm}void zegar\-::wczytaj (
+\begin{DoxyParamCaption}
+\item[{string}]{nazwa}
+\end{DoxyParamCaption}
+)}}\label{classzegar_a4b09c651606f678bacda917f08acee2e}
+
+
+Funkcja wczytuj¹ca dane do stosu. Funkcja otwiera plik zdefiniowany w glownej funkcji przez u¿ytkownika, sprawdza czy plik zosta³ otwarty, je¿eli zosta³ otwarty wczytana jest liczba elementow pliku, nastepnie wczytywane sa wszystkie liczby do tablicy. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em nazwa} & -\/ zmienna, która zostaje wprowadzona przez u¿ytkownika do programu \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+(brak) 
+\end{DoxyReturn}
+
+
+Definition at line 38 of file uruchom.\-cpp.
+
+\hypertarget{classzegar_a33ed36b856cb3e963cf237112190b088}{\index{zegar@{zegar}!wczytaj\-\_\-dane\-\_\-pod@{wczytaj\-\_\-dane\-\_\-pod}}
+\index{wczytaj\-\_\-dane\-\_\-pod@{wczytaj\-\_\-dane\-\_\-pod}!zegar@{zegar}}
+\subsubsection[{wczytaj\-\_\-dane\-\_\-pod}]{\setlength{\rightskip}{0pt plus 5cm}void zegar\-::wczytaj\-\_\-dane\-\_\-pod (
+\begin{DoxyParamCaption}
+\item[{string}]{nazwa\-\_\-pliku\-\_\-pod}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classzegar_a33ed36b856cb3e963cf237112190b088}
+
+
+Wczytanie danych podstawowych Funkcja wczytuje dane, na ktorych wykonywany jest algorytm. Dane te sa glowna funkcja programu. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em nazwa\-\_\-pliku\-\_\-pod} & -\/ jest to zmienna ktora jest ciagiem znakow (nazwa pliku), ktory ma zostac otwarty. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+(brak) 
+\end{DoxyReturn}
+
+
+Definition at line 57 of file uruchom.\-hh.
+
+\hypertarget{classzegar_abd42eadcb229d63bfd5294168b56bbe7}{\index{zegar@{zegar}!wczytaj\-\_\-dane\-\_\-spr@{wczytaj\-\_\-dane\-\_\-spr}}
+\index{wczytaj\-\_\-dane\-\_\-spr@{wczytaj\-\_\-dane\-\_\-spr}!zegar@{zegar}}
+\subsubsection[{wczytaj\-\_\-dane\-\_\-spr}]{\setlength{\rightskip}{0pt plus 5cm}void zegar\-::wczytaj\-\_\-dane\-\_\-spr (
+\begin{DoxyParamCaption}
+\item[{string}]{nazwa\-\_\-pliku\-\_\-spr}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classzegar_abd42eadcb229d63bfd5294168b56bbe7}
+
+
+Wczytanie danych sprawdzajacych Funkcja wczytuje dane, na ktore zostaja porwonane z danymi na ktorych zostal wykonany algorytm. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em nazwa\-\_\-pliku\-\_\-spr} & -\/ jest to zmienna ktora jest ciagiem znakow (nazwa pliku), ktory ma zostac otwarty, w celu porownania. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+(brak) 
+\end{DoxyReturn}
+
+
+Definition at line 68 of file uruchom.\-hh.
+
+\hypertarget{classzegar_aeea0981af9bbff5af057ca2462d2f574}{\index{zegar@{zegar}!wlacz\-Stoper@{wlacz\-Stoper}}
+\index{wlacz\-Stoper@{wlacz\-Stoper}!zegar@{zegar}}
+\subsubsection[{wlacz\-Stoper}]{\setlength{\rightskip}{0pt plus 5cm}L\-A\-R\-G\-E\-\_\-\-I\-N\-T\-E\-G\-E\-R zegar\-::wlacz\-Stoper (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classzegar_aeea0981af9bbff5af057ca2462d2f574}
+
+
+Funkcja zapamietuj¹ca czas poczatkowy. Funkcja nale¿¹ca do biblioteki \char`\"{}windows.\-h\char`\"{}, stoper zostaje w³¹czony. Funkcja nale¿¹ca do funkcji bool Query\-Performance\-Counter(\-\_\-out L\-A\-R\-G\-E\-\_\-\-I\-N\-T\-E\-G\-E\-R $\ast$\-Ip\-Performance\-Count), funkcja ta zwraca wartosc niezerowa je¿eli w³aczenie zakoñczy siê sukcesem, natomiast w przeciwnym wypadku zostanie wyrzucony b³¹d i zwróci wartosc 0. Dla komputerów multiprocesorowych nie ma znaczenia, który jest u¿ywany, mog¹ jedynie ró¿niæ siê minimalnie czasy. 
+
+
+
+Definition at line 20 of file uruchom.\-cpp.
+
+\hypertarget{classzegar_af1d85ecece1c8e7c08f32a761f383b2c}{\index{zegar@{zegar}!wylacz\-Stoper@{wylacz\-Stoper}}
+\index{wylacz\-Stoper@{wylacz\-Stoper}!zegar@{zegar}}
+\subsubsection[{wylacz\-Stoper}]{\setlength{\rightskip}{0pt plus 5cm}L\-A\-R\-G\-E\-\_\-\-I\-N\-T\-E\-G\-E\-R zegar\-::wylacz\-Stoper (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classzegar_af1d85ecece1c8e7c08f32a761f383b2c}
+
+
+Funkcja zapamietuj¹ca czas koñcowy. Funkcja nale¿¹ca do biblioteki \char`\"{}windows.\-h\char`\"{}, stoper zostaje wy³¹czony, aby zosta³ zmierzony czas wykonania algorytmu w programie, poprzez odjêcie czasu pocz¹tkowego od czasu koñcowego. Funkcja nale¿¹ca do funkcji bool Query\-Performance\-Counter(\-\_\-out L\-A\-R\-G\-E\-\_\-\-I\-N\-T\-E\-G\-E\-R $\ast$\-Ip\-Performance\-Count), funkcja ta zwraca wartosc niezerowa je¿eli wy³aczenie zakoñczy siê sukcesem, natomiast w przeciwnym wypadku zostanie wyrzucony b³¹d i zwróci wartosc 0. Dla komputerów multiprocesorowych nie ma znaczenia, który jest u¿ywany, mog¹ jedynie ró¿niæ siê minimalnie czasy. 
+
+
+
+Definition at line 29 of file uruchom.\-cpp.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+C\-:/\-Users/\-Ania/workspace/zadanie/inc/\hyperlink{uruchom_8hh}{uruchom.\-hh}\item 
+C\-:/\-Users/\-Ania/workspace/zadanie/src/\hyperlink{uruchom_8cpp}{uruchom.\-cpp}\end{DoxyCompactItemize}

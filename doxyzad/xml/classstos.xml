@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="classstos" kind="class" prot="public">
+    <compoundname>stos</compoundname>
+    <includes refid="stos_8hh" local="no">stos.hh</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classstos_1a11f3f2ddff250b73638519e4bbb40264" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int stos::rozmiar_tab</definition>
+        <argsstring></argsstring>
+        <name>rozmiar_tab</name>
+        <briefdescription>
+<para>Liczba elemntow ktore tablica moze pomiescic na stosie (tablicy). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ania/workspace/zadanie/inc/stos.hh" line="35" bodyfile="C:/Users/Ania/workspace/zadanie/inc/stos.hh" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstos_1a224fcdbfdf174e07d4cb2728ffaa8c74" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int stos::liczba_elementow</definition>
+        <argsstring></argsstring>
+        <name>liczba_elementow</name>
+        <briefdescription>
+<para>Liczba elementow znajujacych sie na stosie. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ania/workspace/zadanie/inc/stos.hh" line="40" bodyfile="C:/Users/Ania/workspace/zadanie/inc/stos.hh" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstos_1a9f74306fe80f8fa0278686e892d576a7" prot="private" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int* stos::tablica</definition>
+        <argsstring></argsstring>
+        <name>tablica</name>
+        <briefdescription>
+<para>Tablica Do przechowywania elementow na stosie uzyta zostala dynamiczna alokacja pamieci. Tablica zaimplementowana jest jako tablica liczb calkowitych. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ania/workspace/zadanie/inc/stos.hh" line="46" bodyfile="C:/Users/Ania/workspace/zadanie/inc/stos.hh" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstos_1a029fe844a5709b4233d2c27271eaa115" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int stos::powiekszenie</definition>
+        <argsstring></argsstring>
+        <name>powiekszenie</name>
+        <briefdescription>
+<para>Powiekszenie Zmienna wykorzystana w celu oznaczenia czy powiekszenie tablicy ma byc dwa razy wieksze czy o jeden element zwiekszony. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ania/workspace/zadanie/inc/stos.hh" line="52" bodyfile="C:/Users/Ania/workspace/zadanie/inc/stos.hh" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classstos_1a061629bbcbe35dc948ce62d2f244e8ae" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stos::powieksz</definition>
+        <argsstring>()</argsstring>
+        <name>powieksz</name>
+        <briefdescription>
+<para>Powiekszenie tablicy Funkcja zostala stworzona aby powiekszyc tablice dwukrotnie, w przypadku gdy bedziemy chcieli dodac element do tablicy a nam zabraknie miejsca. W funkcji tworzymy nowa tablice dwa razy wieksza niz poprzednia, nastepnie stara tablice dodajemy do nowej, stara tablica jest kasowana a stara pokazuje na nowa. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>(brak) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ania/workspace/zadanie/inc/stos.hh" line="61" bodyfile="C:/Users/Ania/workspace/zadanie/src/stos.cpp" bodystart="5" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classstos_1a179f739ad59e8277edde68af186ce823" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stos::pomniejsz</definition>
+        <argsstring>()</argsstring>
+        <name>pomniejsz</name>
+        <briefdescription>
+<para>Pomniejszenie tablicy Funkcja zostala stworzona aby zmniejszyc tablice dwukrotnie, w przypadku gdy liczba elementow z tablicy bedzie mniejsza badz rowna 1/4 mozliwosci tablicy. W funkcji tworzymy nowa tablice dwa razy mniejsza, nastepnie stara tablice dodajemy do nowej, stara tablica pokazuje na nowa. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>(brak) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ania/workspace/zadanie/inc/stos.hh" line="70" bodyfile="C:/Users/Ania/workspace/zadanie/src/stos.cpp" bodystart="29" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classstos_1afb387ac69250038334f6d8099b6a2421" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>stos::stos</definition>
+        <argsstring>()</argsstring>
+        <name>stos</name>
+        <briefdescription>
+<para>Konstruktor bezargumentowy. Przy tworzeniu tablica jest pusta, w konstruktorze przydzielana jest dynamicznie, na poczatku tablica ma mozliwosc przypisania tablicy o rozmiarze 1. Jezeli nie uda sie utworzyc tablicy wyrzucany jest blad. Przy wywo³aniu konstrktora bezparametrycznego powiekszajaca tablica bedzie dwa razy wieksza. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ania/workspace/zadanie/inc/stos.hh" line="79" bodyfile="C:/Users/Ania/workspace/zadanie/inc/stos.hh" bodystart="79" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classstos_1acd9aed33787d883581056faa8442b8b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>stos::stos</definition>
+        <argsstring>(int cos)</argsstring>
+        <name>stos</name>
+        <param>
+          <type>int</type>
+          <declname>cos</declname>
+        </param>
+        <briefdescription>
+<para>Konstruktor parametryczny. Przy tworzeniu tablica jest pusta, w konstruktorze przydzielana jest dynamicznie, na poczatku tablica ma mozliwosc przypisania tablicy o rozmiarze 1. Jezeli nie uda sie utworzyc tablicy wyrzucany jest blad. Przy wywo³aniu konstrktora parametrycznego tablica zostanie powiekszona o 1 element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ania/workspace/zadanie/inc/stos.hh" line="96" bodyfile="C:/Users/Ania/workspace/zadanie/inc/stos.hh" bodystart="96" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classstos_1ae3a9afe12a83444555ce0246233fa9e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stos::push</definition>
+        <argsstring>(int el_dodawany)</argsstring>
+        <name>push</name>
+        <param>
+          <type>int</type>
+          <declname>el_dodawany</declname>
+        </param>
+        <briefdescription>
+<para>Dodanie elementu na stos. Funkcja dodaje element na koniec stosu, jezeli brakuje miejsca powieksza pamiec. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">el_dodawany</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- zmienna stala, ktora ma zostac dodana na koniec stosu </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>(brak) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ania/workspace/zadanie/inc/stos.hh" line="112" bodyfile="C:/Users/Ania/workspace/zadanie/src/stos.cpp" bodystart="41" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classstos_1a2ee24ebe7ef28d8fb0e37950931a548f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stos::pop</definition>
+        <argsstring>(int *a)</argsstring>
+        <name>pop</name>
+        <param>
+          <type>int *</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Zdejmowanie elementu ze stosu. Funkcja zdejmuje element z konca stosu, jezeli liczba elementow bedzie mniejsza badz rowna 1/4 mozliwych elementow w tablicy, zostaje ona pomniejszana. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- wskaznik do ktorego przypisywany jest element zdejmowany, aby mogl zostal uzyty w przyszlosci </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>(brak) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ania/workspace/zadanie/inc/stos.hh" line="122" bodyfile="C:/Users/Ania/workspace/zadanie/src/stos.cpp" bodystart="50" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classstos_1a28f9b17c72b4a91221e4bae54e169895" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool stos::isempty</definition>
+        <argsstring>()</argsstring>
+        <name>isempty</name>
+        <briefdescription>
+<para>Zwrocenie rozmiaru stosu Funkcja sprawdza czy stos jest pusty poprzez porownanie liczby_elementow do 0. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true jezeli funkcja jest pusta, w przeciwnym wypadku false. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ania/workspace/zadanie/inc/stos.hh" line="128" bodyfile="C:/Users/Ania/workspace/zadanie/src/stos.cpp" bodystart="65" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classstos_1a47fcfe525e580ceb48080b33ab3d53de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int stos::size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <briefdescription>
+<para>Sprawdzenie rozmiaru funkcji Funkcja sprawdza ile elementow jest na stosie. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Zwraca liczbe elementow znajdujacych sie na stosie </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ania/workspace/zadanie/inc/stos.hh" line="134" bodyfile="C:/Users/Ania/workspace/zadanie/src/stos.cpp" bodystart="69" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Klasa modeluje pojecie stosu,bazujacego na tablicy. Na stosie wyonywane sa operacje dodatnia na stos, zdjecia ze stosu, sprawdzenia czy jest pusty oraz sprawdzenia rozmiaru. Tablice zaalokowalam w sposob dynamiczny. Dodatkowo u¿yte niektore funkcje pomocnicze jak np. powiekszenie stosu. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Ania/workspace/zadanie/inc/stos.hh" line="29" bodyfile="C:/Users/Ania/workspace/zadanie/inc/stos.hh" bodystart="29" bodyend="137"/>
+    <listofallmembers>
+      <member refid="classstos_1a28f9b17c72b4a91221e4bae54e169895" prot="public" virt="non-virtual"><scope>stos</scope><name>isempty</name></member>
+      <member refid="classstos_1a224fcdbfdf174e07d4cb2728ffaa8c74" prot="private" virt="non-virtual"><scope>stos</scope><name>liczba_elementow</name></member>
+      <member refid="classstos_1a179f739ad59e8277edde68af186ce823" prot="private" virt="non-virtual"><scope>stos</scope><name>pomniejsz</name></member>
+      <member refid="classstos_1a2ee24ebe7ef28d8fb0e37950931a548f" prot="public" virt="non-virtual"><scope>stos</scope><name>pop</name></member>
+      <member refid="classstos_1a061629bbcbe35dc948ce62d2f244e8ae" prot="private" virt="non-virtual"><scope>stos</scope><name>powieksz</name></member>
+      <member refid="classstos_1a029fe844a5709b4233d2c27271eaa115" prot="private" virt="non-virtual"><scope>stos</scope><name>powiekszenie</name></member>
+      <member refid="classstos_1ae3a9afe12a83444555ce0246233fa9e0" prot="public" virt="non-virtual"><scope>stos</scope><name>push</name></member>
+      <member refid="classstos_1a11f3f2ddff250b73638519e4bbb40264" prot="private" virt="non-virtual"><scope>stos</scope><name>rozmiar_tab</name></member>
+      <member refid="classstos_1a47fcfe525e580ceb48080b33ab3d53de" prot="public" virt="non-virtual"><scope>stos</scope><name>size</name></member>
+      <member refid="classstos_1afb387ac69250038334f6d8099b6a2421" prot="public" virt="non-virtual"><scope>stos</scope><name>stos</name></member>
+      <member refid="classstos_1acd9aed33787d883581056faa8442b8b8" prot="public" virt="non-virtual"><scope>stos</scope><name>stos</name></member>
+      <member refid="classstos_1a9f74306fe80f8fa0278686e892d576a7" prot="private" virt="non-virtual"><scope>stos</scope><name>tablica</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

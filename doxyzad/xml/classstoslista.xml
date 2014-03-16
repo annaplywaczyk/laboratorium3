@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="classstoslista" kind="class" prot="public">
+    <compoundname>stoslista</compoundname>
+    <includes refid="stos__lista_8hh" local="no">stos_lista.hh</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classstoslista_1a0e06ba76e85154981206dae89b08442d" prot="private" static="no" mutable="no">
+        <type>list&lt; int &gt;</type>
+        <definition>list&lt;int&gt; stoslista::lista</definition>
+        <argsstring></argsstring>
+        <name>lista</name>
+        <briefdescription>
+<para>Lista Do przechowywania elementow na stosie uzyta zostala lista, w ktorej uzyte sa liczby calkowite. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ania/workspace/zadanie/inc/stos_lista.hh" line="32" bodyfile="C:/Users/Ania/workspace/zadanie/inc/stos_lista.hh" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classstoslista_1aadf1d5447cbecd6ff9031732a7a8fa8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stoslista::push</definition>
+        <argsstring>(int el_dodawany)</argsstring>
+        <name>push</name>
+        <param>
+          <type>int</type>
+          <declname>el_dodawany</declname>
+        </param>
+        <briefdescription>
+<para>Dodanie elementu na stos. Funkcja dodaje element na koniec stosu. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">el_dodawany</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- zmienna stala, ktora ma zostac dodana na koniec stosu </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>(brak) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ania/workspace/zadanie/inc/stos_lista.hh" line="42" bodyfile="C:/Users/Ania/workspace/zadanie/src/stos_lista.cpp" bodystart="12" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classstoslista_1ab67ebb085a307bffa6c9dd2d6e341cc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stoslista::pop</definition>
+        <argsstring>(int *a)</argsstring>
+        <name>pop</name>
+        <param>
+          <type>int *</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Zdejmowanie elementu ze stosu. Funkcja zdejmuje element z konca stosu. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- wskaznik do ktorego przypisywany jest element zdejmowany, aby mogl zostal uzyty w przyszlosci </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>(brak) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ania/workspace/zadanie/inc/stos_lista.hh" line="51" bodyfile="C:/Users/Ania/workspace/zadanie/src/stos_lista.cpp" bodystart="17" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classstoslista_1a723a7adfc6b429210d5b54bc126475e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool stoslista::isempty</definition>
+        <argsstring>()</argsstring>
+        <name>isempty</name>
+        <briefdescription>
+<para>Sprawdzenie czy funkcja jest pusta Funkcja sprawdza czy stos jest pusty poprzez uzycie funkcji size ktora dziala na liscie. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true jezeli funkcja jest pusta, w przeciwnym wypadku false. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ania/workspace/zadanie/inc/stos_lista.hh" line="57" bodyfile="C:/Users/Ania/workspace/zadanie/src/stos_lista.cpp" bodystart="29" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classstoslista_1adc6f1cf66d65fa6c6875ab38bd8ab4c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int stoslista::size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <briefdescription>
+<para>Zwrocenie rozmiaru funkcji Funkcja sprawdza ile elementow jest na stosie. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Zwraca liczbe elementow znajdujacych sie na stosie. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ania/workspace/zadanie/inc/stos_lista.hh" line="63" bodyfile="C:/Users/Ania/workspace/zadanie/src/stos_lista.cpp" bodystart="33" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Klasa modeluje pojecie stosu,bazujacego na liscie. Na stosie wyonywane sa operacje dodatnia na stos, zdjecia ze stosu, sprawdzenia czy jest pusty oraz sprawdzenia rozmiaru. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Ania/workspace/zadanie/inc/stos_lista.hh" line="25" bodyfile="C:/Users/Ania/workspace/zadanie/inc/stos_lista.hh" bodystart="25" bodyend="65"/>
+    <listofallmembers>
+      <member refid="classstoslista_1a723a7adfc6b429210d5b54bc126475e1" prot="public" virt="non-virtual"><scope>stoslista</scope><name>isempty</name></member>
+      <member refid="classstoslista_1a0e06ba76e85154981206dae89b08442d" prot="private" virt="non-virtual"><scope>stoslista</scope><name>lista</name></member>
+      <member refid="classstoslista_1ab67ebb085a307bffa6c9dd2d6e341cc6" prot="public" virt="non-virtual"><scope>stoslista</scope><name>pop</name></member>
+      <member refid="classstoslista_1aadf1d5447cbecd6ff9031732a7a8fa8d" prot="public" virt="non-virtual"><scope>stoslista</scope><name>push</name></member>
+      <member refid="classstoslista_1adc6f1cf66d65fa6c6875ab38bd8ab4c6" prot="public" virt="non-virtual"><scope>stoslista</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

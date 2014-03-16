@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="classkolejkalista" kind="class" prot="public">
+    <compoundname>kolejkalista</compoundname>
+    <includes refid="kolejka__lista_8hh" local="no">kolejka_lista.hh</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classkolejkalista_1a4e7416d7b43a0fe5cad7899846d44ddb" prot="private" static="no" mutable="no">
+        <type>list&lt; int &gt;</type>
+        <definition>list&lt;int&gt; kolejkalista::lista</definition>
+        <argsstring></argsstring>
+        <name>lista</name>
+        <briefdescription>
+<para>Lista Do przechowywania elementow w kolejce uzyta zostala lista, w ktorej uzyte sa liczby calkowite. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ania/workspace/zadanie/inc/kolejka_lista.hh" line="37" bodyfile="C:/Users/Ania/workspace/zadanie/inc/kolejka_lista.hh" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classkolejkalista_1a32d0ea8aed298035a84f2bd1fedea0ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void kolejkalista::enqueue</definition>
+        <argsstring>(int el_dodawany)</argsstring>
+        <name>enqueue</name>
+        <param>
+          <type>int</type>
+          <declname>el_dodawany</declname>
+        </param>
+        <briefdescription>
+<para>Dodanie elementu z kolejki Funkcja dodaje element na poczatek kolejki. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">el_dodawany</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- zmienna stala, ktora ma zostac dodana poczatek kolejki </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>(brak) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ania/workspace/zadanie/inc/kolejka_lista.hh" line="47" bodyfile="C:/Users/Ania/workspace/zadanie/src/kolejka_lista.cpp" bodystart="14" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classkolejkalista_1a31d4f038aafc4472ab2eebf20021820a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void kolejkalista::dequeue</definition>
+        <argsstring>(int *a)</argsstring>
+        <name>dequeue</name>
+        <param>
+          <type>int *</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Zdejmowanie elementu z kolejki. Funkcja zdejmuje element z konca kolejki. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- wskaznik do ktorego przypisywany jest element zdejmowany, aby mogl zostal uzyty w przyszlosci </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>(brak) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ania/workspace/zadanie/inc/kolejka_lista.hh" line="56" bodyfile="C:/Users/Ania/workspace/zadanie/src/kolejka_lista.cpp" bodystart="18" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classkolejkalista_1ac3e0509cda7ba208478ecf3c5bbabd14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool kolejkalista::isempty</definition>
+        <argsstring>()</argsstring>
+        <name>isempty</name>
+        <briefdescription>
+<para>Sprawdzanie pojemnosci w kolejce. Funkcja sprawdza czy jest pusta poprzez porownanie liczby_elementow do 0. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true jezeli funkcja jest pusta, w przeciwnym wypadku false. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ania/workspace/zadanie/inc/kolejka_lista.hh" line="62" bodyfile="C:/Users/Ania/workspace/zadanie/src/kolejka_lista.cpp" bodystart="30" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classkolejkalista_1a2f53de089b8a97474de6b42b1da04928" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int kolejkalista::size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <briefdescription>
+<para>Zrowcenie rozmiaru funkcji. Funkcja sprawdza ile elementow jest w kolejce. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Zwraca liczbe elementow. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ania/workspace/zadanie/inc/kolejka_lista.hh" line="68" bodyfile="C:/Users/Ania/workspace/zadanie/src/kolejka_lista.cpp" bodystart="34" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Klasa modeluje pojecie kolejki, bazujacej na liscie. Wykonywane sa operacje dodawnia fo kolejki, zdjecia z kolejki, sprawdzenia czy jest pusta oraz sprawdzenia rozmiaru. Tablice zaalokowalam w sposob dynamiczny. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Ania/workspace/zadanie/inc/kolejka_lista.hh" line="29" bodyfile="C:/Users/Ania/workspace/zadanie/inc/kolejka_lista.hh" bodystart="29" bodyend="70"/>
+    <listofallmembers>
+      <member refid="classkolejkalista_1a31d4f038aafc4472ab2eebf20021820a" prot="public" virt="non-virtual"><scope>kolejkalista</scope><name>dequeue</name></member>
+      <member refid="classkolejkalista_1a32d0ea8aed298035a84f2bd1fedea0ef" prot="public" virt="non-virtual"><scope>kolejkalista</scope><name>enqueue</name></member>
+      <member refid="classkolejkalista_1ac3e0509cda7ba208478ecf3c5bbabd14" prot="public" virt="non-virtual"><scope>kolejkalista</scope><name>isempty</name></member>
+      <member refid="classkolejkalista_1a4e7416d7b43a0fe5cad7899846d44ddb" prot="private" virt="non-virtual"><scope>kolejkalista</scope><name>lista</name></member>
+      <member refid="classkolejkalista_1a2f53de089b8a97474de6b42b1da04928" prot="public" virt="non-virtual"><scope>kolejkalista</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

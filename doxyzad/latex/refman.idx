@@ -1,0 +1,100 @@
+\indexentry{dane@{dane}|hyperpage}{7}
+\indexentry{dane@{dane}!dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}element@{dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}element}|hyperpage}{8}
+\indexentry{dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}element@{dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}element}!dane@{dane}|hyperpage}{8}
+\indexentry{dane@{dane}!dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}elementy@{dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}|hyperpage}{8}
+\indexentry{dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}elementy@{dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}!dane@{dane}|hyperpage}{8}
+\indexentry{dane@{dane}!odwroc\discretionary {-}{}{}\_\discretionary {-}{}{}element@{odwroc\discretionary {-}{}{}\_\discretionary {-}{}{}element}|hyperpage}{8}
+\indexentry{odwroc\discretionary {-}{}{}\_\discretionary {-}{}{}element@{odwroc\discretionary {-}{}{}\_\discretionary {-}{}{}element}!dane@{dane}|hyperpage}{8}
+\indexentry{dane@{dane}!operator+@{operator+}|hyperpage}{8}
+\indexentry{operator+@{operator+}!dane@{dane}|hyperpage}{8}
+\indexentry{dane@{dane}!operator=@{operator=}|hyperpage}{8}
+\indexentry{operator=@{operator=}!dane@{dane}|hyperpage}{8}
+\indexentry{dane@{dane}!operator==@{operator==}|hyperpage}{9}
+\indexentry{operator==@{operator==}!dane@{dane}|hyperpage}{9}
+\indexentry{dane@{dane}!operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}|hyperpage}{9}
+\indexentry{operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}!dane@{dane}|hyperpage}{9}
+\indexentry{dane@{dane}!size@{size}|hyperpage}{9}
+\indexentry{size@{size}!dane@{dane}|hyperpage}{9}
+\indexentry{dane@{dane}!wczytaj@{wczytaj}|hyperpage}{9}
+\indexentry{wczytaj@{wczytaj}!dane@{dane}|hyperpage}{9}
+\indexentry{dane@{dane}!wnetrze@{wnetrze}|hyperpage}{10}
+\indexentry{wnetrze@{wnetrze}!dane@{dane}|hyperpage}{10}
+\indexentry{dane@{dane}!wypisz@{wypisz}|hyperpage}{10}
+\indexentry{wypisz@{wypisz}!dane@{dane}|hyperpage}{10}
+\indexentry{dane@{dane}!zamien\discretionary {-}{}{}\_\discretionary {-}{}{}element@{zamien\discretionary {-}{}{}\_\discretionary {-}{}{}element}|hyperpage}{10}
+\indexentry{zamien\discretionary {-}{}{}\_\discretionary {-}{}{}element@{zamien\discretionary {-}{}{}\_\discretionary {-}{}{}element}!dane@{dane}|hyperpage}{10}
+\indexentry{kolejkalista@{kolejkalista}|hyperpage}{11}
+\indexentry{kolejkalista@{kolejkalista}!dequeue@{dequeue}|hyperpage}{11}
+\indexentry{dequeue@{dequeue}!kolejkalista@{kolejkalista}|hyperpage}{11}
+\indexentry{kolejkalista@{kolejkalista}!enqueue@{enqueue}|hyperpage}{11}
+\indexentry{enqueue@{enqueue}!kolejkalista@{kolejkalista}|hyperpage}{11}
+\indexentry{kolejkalista@{kolejkalista}!isempty@{isempty}|hyperpage}{11}
+\indexentry{isempty@{isempty}!kolejkalista@{kolejkalista}|hyperpage}{11}
+\indexentry{kolejkalista@{kolejkalista}!size@{size}|hyperpage}{12}
+\indexentry{size@{size}!kolejkalista@{kolejkalista}|hyperpage}{12}
+\indexentry{kolejkatab@{kolejkatab}|hyperpage}{12}
+\indexentry{kolejkatab@{kolejkatab}!kolejkatab@{kolejkatab}|hyperpage}{13}
+\indexentry{kolejkatab@{kolejkatab}!kolejkatab@{kolejkatab}|hyperpage}{13}
+\indexentry{kolejkatab@{kolejkatab}!dequeue@{dequeue}|hyperpage}{13}
+\indexentry{dequeue@{dequeue}!kolejkatab@{kolejkatab}|hyperpage}{13}
+\indexentry{kolejkatab@{kolejkatab}!enqueue@{enqueue}|hyperpage}{13}
+\indexentry{enqueue@{enqueue}!kolejkatab@{kolejkatab}|hyperpage}{13}
+\indexentry{kolejkatab@{kolejkatab}!isempty@{isempty}|hyperpage}{13}
+\indexentry{isempty@{isempty}!kolejkatab@{kolejkatab}|hyperpage}{13}
+\indexentry{kolejkatab@{kolejkatab}!size@{size}|hyperpage}{13}
+\indexentry{size@{size}!kolejkatab@{kolejkatab}|hyperpage}{13}
+\indexentry{stos@{stos}|hyperpage}{14}
+\indexentry{stos@{stos}!stos@{stos}|hyperpage}{14}
+\indexentry{stos@{stos}!stos@{stos}|hyperpage}{14}
+\indexentry{stos@{stos}!stos@{stos}|hyperpage}{14}
+\indexentry{stos@{stos}!stos@{stos}|hyperpage}{14}
+\indexentry{stos@{stos}!isempty@{isempty}|hyperpage}{15}
+\indexentry{isempty@{isempty}!stos@{stos}|hyperpage}{15}
+\indexentry{stos@{stos}!pop@{pop}|hyperpage}{15}
+\indexentry{pop@{pop}!stos@{stos}|hyperpage}{15}
+\indexentry{stos@{stos}!push@{push}|hyperpage}{15}
+\indexentry{push@{push}!stos@{stos}|hyperpage}{15}
+\indexentry{stos@{stos}!size@{size}|hyperpage}{15}
+\indexentry{size@{size}!stos@{stos}|hyperpage}{15}
+\indexentry{stoslista@{stoslista}|hyperpage}{16}
+\indexentry{stoslista@{stoslista}!isempty@{isempty}|hyperpage}{16}
+\indexentry{isempty@{isempty}!stoslista@{stoslista}|hyperpage}{16}
+\indexentry{stoslista@{stoslista}!pop@{pop}|hyperpage}{16}
+\indexentry{pop@{pop}!stoslista@{stoslista}|hyperpage}{16}
+\indexentry{stoslista@{stoslista}!push@{push}|hyperpage}{17}
+\indexentry{push@{push}!stoslista@{stoslista}|hyperpage}{17}
+\indexentry{stoslista@{stoslista}!size@{size}|hyperpage}{17}
+\indexentry{size@{size}!stoslista@{stoslista}|hyperpage}{17}
+\indexentry{zegar@{zegar}|hyperpage}{17}
+\indexentry{zegar@{zegar}!zegar@{zegar}|hyperpage}{18}
+\indexentry{zegar@{zegar}!zegar@{zegar}|hyperpage}{18}
+\indexentry{zegar@{zegar}!algorytm@{algorytm}|hyperpage}{18}
+\indexentry{algorytm@{algorytm}!zegar@{zegar}|hyperpage}{18}
+\indexentry{zegar@{zegar}!porownaj@{porownaj}|hyperpage}{18}
+\indexentry{porownaj@{porownaj}!zegar@{zegar}|hyperpage}{18}
+\indexentry{zegar@{zegar}!wczytaj@{wczytaj}|hyperpage}{18}
+\indexentry{wczytaj@{wczytaj}!zegar@{zegar}|hyperpage}{18}
+\indexentry{zegar@{zegar}!wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane\discretionary {-}{}{}\_\discretionary {-}{}{}pod@{wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane\discretionary {-}{}{}\_\discretionary {-}{}{}pod}|hyperpage}{19}
+\indexentry{wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane\discretionary {-}{}{}\_\discretionary {-}{}{}pod@{wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane\discretionary {-}{}{}\_\discretionary {-}{}{}pod}!zegar@{zegar}|hyperpage}{19}
+\indexentry{zegar@{zegar}!wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane\discretionary {-}{}{}\_\discretionary {-}{}{}spr@{wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane\discretionary {-}{}{}\_\discretionary {-}{}{}spr}|hyperpage}{19}
+\indexentry{wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane\discretionary {-}{}{}\_\discretionary {-}{}{}spr@{wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane\discretionary {-}{}{}\_\discretionary {-}{}{}spr}!zegar@{zegar}|hyperpage}{19}
+\indexentry{zegar@{zegar}!wlacz\discretionary {-}{}{}Stoper@{wlacz\discretionary {-}{}{}Stoper}|hyperpage}{19}
+\indexentry{wlacz\discretionary {-}{}{}Stoper@{wlacz\discretionary {-}{}{}Stoper}!zegar@{zegar}|hyperpage}{19}
+\indexentry{zegar@{zegar}!wylacz\discretionary {-}{}{}Stoper@{wylacz\discretionary {-}{}{}Stoper}|hyperpage}{19}
+\indexentry{wylacz\discretionary {-}{}{}Stoper@{wylacz\discretionary {-}{}{}Stoper}!zegar@{zegar}|hyperpage}{19}
+\indexentry{C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/doc/pages/strona.\discretionary {-}{}{}dox@{C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/doc/pages/strona.\discretionary {-}{}{}dox}|hyperpage}{21}
+\indexentry{C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/inc/dane.\discretionary {-}{}{}hh@{C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/inc/dane.\discretionary {-}{}{}hh}|hyperpage}{21}
+\indexentry{C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/inc/kolejka.\discretionary {-}{}{}hh@{C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/inc/kolejka.\discretionary {-}{}{}hh}|hyperpage}{21}
+\indexentry{C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/inc/kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista.\discretionary {-}{}{}hh@{C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/inc/kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista.\discretionary {-}{}{}hh}|hyperpage}{22}
+\indexentry{C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/inc/stos.\discretionary {-}{}{}hh@{C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/inc/stos.\discretionary {-}{}{}hh}|hyperpage}{22}
+\indexentry{C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/inc/stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista.\discretionary {-}{}{}hh@{C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/inc/stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista.\discretionary {-}{}{}hh}|hyperpage}{23}
+\indexentry{C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/inc/uruchom.\discretionary {-}{}{}hh@{C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/inc/uruchom.\discretionary {-}{}{}hh}|hyperpage}{23}
+\indexentry{C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/src/dane.\discretionary {-}{}{}cpp@{C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/src/dane.\discretionary {-}{}{}cpp}|hyperpage}{23}
+\indexentry{C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/src/kolejka.\discretionary {-}{}{}cpp@{C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/src/kolejka.\discretionary {-}{}{}cpp}|hyperpage}{24}
+\indexentry{C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/src/kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista.\discretionary {-}{}{}cpp@{C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/src/kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista.\discretionary {-}{}{}cpp}|hyperpage}{24}
+\indexentry{C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/src/main.\discretionary {-}{}{}cpp@{C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/src/main.\discretionary {-}{}{}cpp}|hyperpage}{24}
+\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}!main@{main}|hyperpage}{24}
+\indexentry{main@{main}!main.cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{24}
+\indexentry{C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/src/stos.\discretionary {-}{}{}cpp@{C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/src/stos.\discretionary {-}{}{}cpp}|hyperpage}{24}
+\indexentry{C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/src/stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista.\discretionary {-}{}{}cpp@{C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/src/stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista.\discretionary {-}{}{}cpp}|hyperpage}{25}
+\indexentry{C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/src/uruchom.\discretionary {-}{}{}cpp@{C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/src/uruchom.\discretionary {-}{}{}cpp}|hyperpage}{25}

@@ -1,0 +1,90 @@
+\contentsline {chapter}{\numberline {1}Program wyliczajacy czas wykonywanego alorytmu}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Class Index}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Class List}{3}{section.2.1}
+\contentsline {chapter}{\numberline {3}File Index}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}File List}{5}{section.3.1}
+\contentsline {chapter}{\numberline {4}Class Documentation}{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}dane Class Reference}{7}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Detailed Description}{8}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Member Function Documentation}{8}{subsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.2.1}dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}element}{8}{subsubsection.4.1.2.1}
+\contentsline {subsubsection}{\numberline {4.1.2.2}dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}{8}{subsubsection.4.1.2.2}
+\contentsline {subsubsection}{\numberline {4.1.2.3}odwroc\discretionary {-}{}{}\_\discretionary {-}{}{}element}{8}{subsubsection.4.1.2.3}
+\contentsline {subsubsection}{\numberline {4.1.2.4}operator+}{8}{subsubsection.4.1.2.4}
+\contentsline {subsubsection}{\numberline {4.1.2.5}operator=}{9}{subsubsection.4.1.2.5}
+\contentsline {subsubsection}{\numberline {4.1.2.6}operator==}{9}{subsubsection.4.1.2.6}
+\contentsline {subsubsection}{\numberline {4.1.2.7}operator[]}{9}{subsubsection.4.1.2.7}
+\contentsline {subsubsection}{\numberline {4.1.2.8}size}{9}{subsubsection.4.1.2.8}
+\contentsline {subsubsection}{\numberline {4.1.2.9}wczytaj}{10}{subsubsection.4.1.2.9}
+\contentsline {subsubsection}{\numberline {4.1.2.10}wnetrze}{10}{subsubsection.4.1.2.10}
+\contentsline {subsubsection}{\numberline {4.1.2.11}wypisz}{10}{subsubsection.4.1.2.11}
+\contentsline {subsubsection}{\numberline {4.1.2.12}zamien\discretionary {-}{}{}\_\discretionary {-}{}{}element}{10}{subsubsection.4.1.2.12}
+\contentsline {section}{\numberline {4.2}kolejkalista Class Reference}{11}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Detailed Description}{11}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Member Function Documentation}{11}{subsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.1}dequeue}{11}{subsubsection.4.2.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2.2}enqueue}{11}{subsubsection.4.2.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.3}isempty}{12}{subsubsection.4.2.2.3}
+\contentsline {subsubsection}{\numberline {4.2.2.4}size}{12}{subsubsection.4.2.2.4}
+\contentsline {section}{\numberline {4.3}kolejkatab Class Reference}{12}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Detailed Description}{12}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Constructor \& Destructor Documentation}{13}{subsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.2.1}kolejkatab}{13}{subsubsection.4.3.2.1}
+\contentsline {subsection}{\numberline {4.3.3}Member Function Documentation}{13}{subsection.4.3.3}
+\contentsline {subsubsection}{\numberline {4.3.3.1}dequeue}{13}{subsubsection.4.3.3.1}
+\contentsline {subsubsection}{\numberline {4.3.3.2}enqueue}{13}{subsubsection.4.3.3.2}
+\contentsline {subsubsection}{\numberline {4.3.3.3}isempty}{13}{subsubsection.4.3.3.3}
+\contentsline {subsubsection}{\numberline {4.3.3.4}size}{13}{subsubsection.4.3.3.4}
+\contentsline {section}{\numberline {4.4}stos Class Reference}{14}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Detailed Description}{14}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Constructor \& Destructor Documentation}{14}{subsection.4.4.2}
+\contentsline {subsubsection}{\numberline {4.4.2.1}stos}{14}{subsubsection.4.4.2.1}
+\contentsline {subsubsection}{\numberline {4.4.2.2}stos}{15}{subsubsection.4.4.2.2}
+\contentsline {subsection}{\numberline {4.4.3}Member Function Documentation}{15}{subsection.4.4.3}
+\contentsline {subsubsection}{\numberline {4.4.3.1}isempty}{15}{subsubsection.4.4.3.1}
+\contentsline {subsubsection}{\numberline {4.4.3.2}pop}{15}{subsubsection.4.4.3.2}
+\contentsline {subsubsection}{\numberline {4.4.3.3}push}{15}{subsubsection.4.4.3.3}
+\contentsline {subsubsection}{\numberline {4.4.3.4}size}{15}{subsubsection.4.4.3.4}
+\contentsline {section}{\numberline {4.5}stoslista Class Reference}{16}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Detailed Description}{16}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Member Function Documentation}{16}{subsection.4.5.2}
+\contentsline {subsubsection}{\numberline {4.5.2.1}isempty}{16}{subsubsection.4.5.2.1}
+\contentsline {subsubsection}{\numberline {4.5.2.2}pop}{16}{subsubsection.4.5.2.2}
+\contentsline {subsubsection}{\numberline {4.5.2.3}push}{17}{subsubsection.4.5.2.3}
+\contentsline {subsubsection}{\numberline {4.5.2.4}size}{17}{subsubsection.4.5.2.4}
+\contentsline {section}{\numberline {4.6}zegar Class Reference}{17}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Detailed Description}{18}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}Constructor \& Destructor Documentation}{18}{subsection.4.6.2}
+\contentsline {subsubsection}{\numberline {4.6.2.1}zegar}{18}{subsubsection.4.6.2.1}
+\contentsline {subsection}{\numberline {4.6.3}Member Function Documentation}{18}{subsection.4.6.3}
+\contentsline {subsubsection}{\numberline {4.6.3.1}algorytm}{18}{subsubsection.4.6.3.1}
+\contentsline {subsubsection}{\numberline {4.6.3.2}porownaj}{18}{subsubsection.4.6.3.2}
+\contentsline {subsubsection}{\numberline {4.6.3.3}wczytaj}{19}{subsubsection.4.6.3.3}
+\contentsline {subsubsection}{\numberline {4.6.3.4}wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane\discretionary {-}{}{}\_\discretionary {-}{}{}pod}{19}{subsubsection.4.6.3.4}
+\contentsline {subsubsection}{\numberline {4.6.3.5}wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane\discretionary {-}{}{}\_\discretionary {-}{}{}spr}{19}{subsubsection.4.6.3.5}
+\contentsline {subsubsection}{\numberline {4.6.3.6}wlacz\discretionary {-}{}{}Stoper}{19}{subsubsection.4.6.3.6}
+\contentsline {subsubsection}{\numberline {4.6.3.7}wylacz\discretionary {-}{}{}Stoper}{20}{subsubsection.4.6.3.7}
+\contentsline {chapter}{\numberline {5}File Documentation}{21}{chapter.5}
+\contentsline {section}{\numberline {5.1}C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/doc/pages/strona.dox File Reference}{21}{section.5.1}
+\contentsline {section}{\numberline {5.2}C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/inc/dane.hh File Reference}{21}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Detailed Description}{21}{subsection.5.2.1}
+\contentsline {section}{\numberline {5.3}C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/inc/kolejka.hh File Reference}{21}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Detailed Description}{22}{subsection.5.3.1}
+\contentsline {section}{\numberline {5.4}C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/inc/kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista.hh File Reference}{22}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Detailed Description}{22}{subsection.5.4.1}
+\contentsline {section}{\numberline {5.5}C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/inc/stos.hh File Reference}{22}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Detailed Description}{22}{subsection.5.5.1}
+\contentsline {section}{\numberline {5.6}C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/inc/stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista.hh File Reference}{23}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Detailed Description}{23}{subsection.5.6.1}
+\contentsline {section}{\numberline {5.7}C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/inc/uruchom.hh File Reference}{23}{section.5.7}
+\contentsline {subsection}{\numberline {5.7.1}Detailed Description}{23}{subsection.5.7.1}
+\contentsline {section}{\numberline {5.8}C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/src/dane.cpp File Reference}{23}{section.5.8}
+\contentsline {section}{\numberline {5.9}C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/src/kolejka.cpp File Reference}{24}{section.5.9}
+\contentsline {section}{\numberline {5.10}C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/src/kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista.cpp File Reference}{24}{section.5.10}
+\contentsline {section}{\numberline {5.11}C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/src/main.cpp File Reference}{24}{section.5.11}
+\contentsline {subsection}{\numberline {5.11.1}Detailed Description}{24}{subsection.5.11.1}
+\contentsline {subsection}{\numberline {5.11.2}Function Documentation}{24}{subsection.5.11.2}
+\contentsline {subsubsection}{\numberline {5.11.2.1}main}{24}{subsubsection.5.11.2.1}
+\contentsline {section}{\numberline {5.12}C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/src/stos.cpp File Reference}{24}{section.5.12}
+\contentsline {section}{\numberline {5.13}C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/src/stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista.cpp File Reference}{25}{section.5.13}
+\contentsline {section}{\numberline {5.14}C\discretionary {-}{}{}:/\discretionary {-}{}{}Users/\discretionary {-}{}{}Ania/workspace/zadanie/src/uruchom.cpp File Reference}{25}{section.5.14}

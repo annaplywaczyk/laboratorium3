@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="uruchom_8cpp" kind="file">
+    <compoundname>uruchom.cpp</compoundname>
+    <includes refid="uruchom_8hh" local="yes">uruchom.hh</includes>
+    <includes local="no">fstream</includes>
+    <incdepgraph>
+      <node id="112">
+        <label>windows.h</label>
+      </node>
+      <node id="110">
+        <label>string</label>
+      </node>
+      <node id="115">
+        <label>fstream</label>
+      </node>
+      <node id="113">
+        <label>stos.hh</label>
+        <link refid="stos_8hh"/>
+        <childnode refid="109" relation="include">
+        </childnode>
+        <childnode refid="114" relation="include">
+        </childnode>
+      </node>
+      <node id="106">
+        <label>C:/Users/Ania/workspace/zadanie/src/uruchom.cpp</label>
+        <link refid="uruchom.cpp"/>
+        <childnode refid="107" relation="include">
+        </childnode>
+        <childnode refid="115" relation="include">
+        </childnode>
+      </node>
+      <node id="107">
+        <label>uruchom.hh</label>
+        <link refid="uruchom_8hh"/>
+        <childnode refid="108" relation="include">
+        </childnode>
+        <childnode refid="112" relation="include">
+        </childnode>
+        <childnode refid="113" relation="include">
+        </childnode>
+      </node>
+      <node id="111">
+        <label>vector</label>
+      </node>
+      <node id="114">
+        <label>cstdlib</label>
+      </node>
+      <node id="109">
+        <label>iostream</label>
+      </node>
+      <node id="108">
+        <label>dane.hh</label>
+        <link refid="dane_8hh"/>
+        <childnode refid="109" relation="include">
+        </childnode>
+        <childnode refid="110" relation="include">
+        </childnode>
+        <childnode refid="111" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>uruchom.cpp</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>Created<sp/>on:<sp/>8<sp/>mar<sp/>2014</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>Author:<sp/>Ania</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="uruchom_8hh" kindref="compound" tooltip="Definicja klasy zegar.">uruchom.hh</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="classzegar_1a8975a0605f6d9a6c8556459ec429e1a4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classzegar_1a8975a0605f6d9a6c8556459ec429e1a4" kindref="member" tooltip="Funkcja wykonuj¹ca zadany algorytm na wektorze. Funkcja wykonuje zadany algorytm na wektorze wejsciowy...">zegar::algorytm</ref>()</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=0;<sp/>i&lt;dane_podstawowe.size();<sp/>i++)</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{dane_podstawowe[i]=dane_podstawowe[i]*2;}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="classzegar_1aeea0981af9bbff5af057ca2462d2f574" refkind="member"><highlight class="normal">LARGE_INTEGER<sp/><ref refid="classzegar_1aeea0981af9bbff5af057ca2462d2f574" kindref="member" tooltip="Funkcja zapamietuj¹ca czas poczatkowy. Funkcja nale¿¹ca do biblioteki &amp;quot;windows.h&amp;quot;, stoper zostaje w³¹czo...">zegar::wlaczStoper</ref>()</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/>LARGE_INTEGER<sp/>start;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/>DWORD_PTR<sp/>oldmask<sp/>=<sp/>SetThreadAffinityMask(GetCurrentThread(),<sp/>0);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/>QueryPerformanceCounter(&amp;start);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/>SetThreadAffinityMask(GetCurrentThread(),<sp/>oldmask);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>start;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="classzegar_1af1d85ecece1c8e7c08f32a761f383b2c" refkind="member"><highlight class="normal">LARGE_INTEGER<sp/><ref refid="classzegar_1af1d85ecece1c8e7c08f32a761f383b2c" kindref="member" tooltip="Funkcja zapamietuj¹ca czas koñcowy. Funkcja nale¿¹ca do biblioteki &amp;quot;windows.h&amp;quot;, stoper zostaje wy³¹czony...">zegar::wylaczStoper</ref>()</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/>LARGE_INTEGER<sp/>stop;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/>DWORD_PTR<sp/>oldmask<sp/>=<sp/>SetThreadAffinityMask(GetCurrentThread(),<sp/>0);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/>QueryPerformanceCounter(&amp;stop);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/>SetThreadAffinityMask(GetCurrentThread(),<sp/>oldmask);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>stop;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="classzegar_1a4b09c651606f678bacda917f08acee2e" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classzegar_1a4b09c651606f678bacda917f08acee2e" kindref="member" tooltip="Funkcja wczytuj¹ca dane do stosu. Funkcja otwiera plik zdefiniowany w glownej funkcji przez u¿ytkownika...">zegar::wczytaj</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>nazwa)</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ifstream<sp/>plik(nazwa.c_str());</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>liczba_ele;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!plik)</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cerr<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Brak<sp/>pliku!&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>plik<sp/>&gt;&gt;<sp/>liczba_ele;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>liczba;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=1;<sp/>plik<sp/>&gt;&gt;<sp/>liczba;<sp/>i++)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stosik.push(liczba);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>plik.close();</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Ania/workspace/zadanie/src/uruchom.cpp"/>
+  </compounddef>
+</doxygen>
